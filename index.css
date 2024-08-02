@@ -1,0 +1,251 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    cursor: url(images/cursor.png), auto;
+    background-image: url(images/hero\ page\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: url(images/mouse\ pointer.png), auto;
+    transition: all 0.5s;
+}
+a:hover {
+    color: #00FFAB;
+}
+button {
+    cursor: url(images/mouse\ pointer.png), auto;
+}
+.hero-page {
+    width: 100vw, auto;
+    height: 100vh;
+    text-align: center;
+}
+#header {
+    position: fixed;
+    padding: 5px 10px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+}
+.header-hidden {
+    transform: translateY(-100%);
+}
+.header-visible {
+    background-color: #3572ef;
+    transform: translateY(0);
+}
+.header-logo {
+    width: 50px;
+    height: 30px;
+}
+.gap {
+    flex: 2;
+}
+.header-nav {
+    display: flex;
+    justify-content: right;
+    flex: 1;
+}
+.header-link {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.hero-content {
+    height: 93vh;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.hero-title {
+    margin: 0;
+    font-size: 200px;
+    text-shadow: 5px 5px 5px black;
+    font-family: "Monomaniac One", sans-serif;
+    font-weight: 400;
+}
+.hero-slogan {
+    margin: 0;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+.hero-button {
+    padding: 10px 25px;
+    background-color: #3572ef;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.5s;
+}
+.hero-button:hover {
+    border-width: 1px;
+    background-color: #00FFAB;
+    color: #3572ef;
+}
+.morgs-tech {
+    width: 100vw, auto;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+}
+.tech-text {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+}
+.tech-heading {
+    font-size: 70px;
+    margin: 0;
+    color: #3572ef;
+}
+.tech-image-holder {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+}
+.tech-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white;
+}
+.morgs-studio {
+    width: 100vw, auto;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+}
+.studio-text {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+    text-align: right;
+}
+.studio-heading {
+    font-size: 70px;
+    margin: 0;
+    color: #3572ef;
+}
+.studio-image-holder {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+}
+.studio-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white;
+}
+.morgs-design {
+    width: 100vw, auto;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+}
+.design-text {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+}
+.design-heading {
+    font-size: 70px;
+    margin: 0;
+    color: #3572ef;
+}
+.design-image-holder {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+}
+.design-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white;
+}
+.morgs-marketing {
+    width: 100vw, auto;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+}
+.marketing-text {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+    text-align: right;
+}
+.marketing-heading {
+    font-size: 70px;
+    margin: 0;
+    color: #3572ef;
+}
+.marketing-image-holder {
+    flex: 1;
+    height: 80vh;
+    align-self: center;
+}
+.marketing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white;
+}
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0); /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3573ef8b; /* Background of the scrollbar thumb */
+    border-radius: 3px; /* Roundness of the scrollbar thumb */
+    border: none; /* Space around the thumb, matching track background */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00ffaa4e; /* Background of the scrollbar thumb on hover */
+  }
+  

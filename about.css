@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/alex-perez-ioJBsYQ-pPM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover 100%;
+    background-attachment: scroll;
+    background-position: center, top;
+    min-height: 600vh;
+}
